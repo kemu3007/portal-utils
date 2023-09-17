@@ -1,0 +1,90 @@
+[
+  {
+    "label": "STAR Note",
+    "link": "star-note",
+    "description": "面接の際のネタ帳です。Situation, Task, Action, Resultに分類して複数記載することが可能です。",
+    "external": false,
+    "secure": false,
+    "pinned": true
+  },
+  {
+    "label": "FX Caluculator",
+    "link": "fx-calc",
+    "description": "FXに利用する証拠金率、ロスカット値、購入可能の最大ロット数などの値を計算します。",
+    "external": false,
+    "secure": false,
+    "pinned": true
+  },
+  {
+    "label": "Mermaid Live Editor",
+    "link": "mermaid",
+    "description": "Mermaidをリアルタイムで描画し、記述を支援します。",
+    "external": false,
+    "secure": false,
+    "pinned": true
+  },
+  {
+    "label": "OpenApi Viewer",
+    "link": "openapi",
+    "description": "OpenApi JSON/YAMLをSwagger-UI / Redoc形式で表示します。",
+    "external": false,
+    "secure": false,
+    "pinned": false
+  },
+  {
+    "label": "Year Checker",
+    "link": "year",
+    "description": "誕生日をもとに各種卒業年度/厄年といった年月日を計算します。",
+    "external": false,
+    "secure": false,
+    "pinned": false
+  },
+  {
+    "label": "Regex Checker",
+    "link": "regex",
+    "description": "正規表現とテキストを入力することでテキストを対象とした正規表現のテストを行い、index, マッチ文字列を返却します。",
+    "external": false,
+    "secure": false,
+    "pinned": true
+  },
+  {
+    "label": "GitHub Flavored Markdown Writer",
+    "link": "mdwriter",
+    "description": "GitHub Flavored Markdown形式のMarkdownを記載することができ、HTMLに変換可能です。",
+    "external": false,
+    "secure": false,
+    "pinned": true
+  },
+  {
+    "label": "Base64 Encoder/Decoder",
+    "link": "base64",
+    "description": "Base64フォーマットのデータをエンコード/デコードします。",
+    "external": false,
+    "secure": false,
+    "pinned": false
+  },
+  {
+    "label": "JSON Formatter",
+    "link": "json-formatter",
+    "description": "未整形のJSONデータを整形します。",
+    "external": false,
+    "secure": false,
+    "pinned": false
+  },
+  {
+    "label": "REALTIME",
+    "link": "realtime",
+    "description": "現在時刻を100ms単位で更新し、正確な日時をお知らせします。",
+    "external": false,
+    "secure": false,
+    "pinned": false
+  },
+  {
+    "label": "JSON Typer",
+    "link": "json-typer",
+    "description": "JSONの値をTypeScriptのinterface型に変換します。",
+    "external": false,
+    "secure": false,
+    "pinned": true
+  }
+]
