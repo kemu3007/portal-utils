@@ -28,18 +28,15 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-          cache-dependency-path: portal/package-lock.json
+          cache-dependency-path: package-lock.json
       - name: install deps
-        working-directory: ./portal
         run: |
           npm install --legacy-peer-deps
       - name: build
-        working-directory: ./portal
         run: |
           npm run build |& tee -a $GITHUB_STEP_SUMMARY
           exit ${PIPESTATUS[0]}
       - name: SSG
-        working-directory: ./portal
         run: |
           npm run scully |& tee -a $GITHUB_STEP_SUMMARY
           exit ${PIPESTATUS[0]}
@@ -47,4 +44,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./portal/dist/static/
+          publish_dir: ./dist/static/
