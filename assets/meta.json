@@ -1,0 +1,57 @@
+{
+  "/": {
+    "title": "Kemu Tools",
+    "description": "自作ツール置き場 / Markdown Writer, QrCode Maker, JSON Typer, JSON Formatter, Base64 Translator...",
+    "img": "https://portal.kemu.site/assets/images/tools.png"
+  },
+  "/json-typer/": {
+    "title": "JSON Typer | Kemu Tools",
+    "description": "任意のJSONの値をTypeScriptのinterface型に変換します。\n        ローカルストレージ上に前回入力されたデータを保存することで利便性を高めており、ワンクリックで結果をコピーすることが可能です。",
+    "img": "https://portal.kemu.site/assets/images/json-typer.png"
+  },
+  "/realtime/": {
+    "title": "REALTIME | Kemu Tools",
+    "description": "現在時刻を100ms単位で更新し、正確な日時をお知らせします。\n        指定した時刻に指定したワードを呟きたいTwitterのmeme / 先着順の申し込みカウントダウンのようなケースでお使いください。",
+    "img": "https://portal.kemu.site/assets/images/realtime.png"
+  },
+  "/json-formatter/": {
+    "title": "JSON Formatter | Kemu Tools",
+    "description": "未整形のJSONデータを整形します。\n        ローカルストレージ上に前回入力されたデータを保存することで利便性を高めており、ワンクリックで結果をコピーすることが可能です。",
+    "img": "https://portal.kemu.site/assets/images/json-formatter.png"
+  },
+  "/base64/": {
+    "title": "Base64 Encoder/Decoder | Kemu Tools",
+    "description": "文字列データをBase64に、Base64データを文字列に変換します。\n        マルチバイト文字にも対応しており、フロントエンドからバックエンドにJSON形式でファイルを送信する場合のダミーデータ作成などに便利です。",
+    "img": "https://portal.kemu.site/assets/images/base64.png"
+  },
+  "/mdwriter/": {
+    "title": "GitHub Flavored Markdown Writer | Kemu Tools",
+    "description": "GitHub Flavored MarkdownをHTMLに変換します。変換データ及び元のMarkdwonデータをワンクリックでコピー可能です。",
+    "img": "https://portal.kemu.site/assets/images/mdwriter.png"
+  },
+  "/regex/": {
+    "title": "Regex Checker | Kemu Tools",
+    "description": "正規表現とテキストを入力することでテキストを対象とした正規表現のテストを行い、index, マッチ文字列を返却します。",
+    "img": "https://portal.kemu.site/assets/images/regex.png"
+  },
+  "/fx-calc/": {
+    "title": "FX Calculator | Kemu Tools",
+    "description": "FXに利用する証拠金率、ロスカット値、購入可能の最大ロット数などの値を計算します。",
+    "img": "https://portal.kemu.site/assets/images/fx-calc.png"
+  },
+  "/year/": {
+    "title": "Year Checker | Kemu Tools",
+    "description": "誕生日をもとに各種卒業年度/厄年といった年月日を計算します。",
+    "img": "https://portal.kemu.site/assets/images/year.png"
+  },
+  "/openapi/": {
+    "title": "OpenApi Viewer | Kemu Tools",
+    "description": "OpenApi JSON/YAMLをSwagger-UI / Redoc UIで表示します。",
+    "img": "https://portal.kemu.site/assets/images/openapi.png"
+  },
+  "/mermaid/": {
+    "title": "Mermaid Live Editor | Kemu Tools",
+    "description": "Mermaidをリアルタイムで描画し、記述を支援します。",
+    "img": "https://portal.kemu.site/assets/images/mermaid.png"
+  }
+}
