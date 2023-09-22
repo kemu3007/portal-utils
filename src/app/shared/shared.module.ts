@@ -19,9 +19,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTabsModule } from '@angular/material/tabs';
 import { RouterModule } from '@angular/router';
-import { environment } from '@environments/environment';
+// import { environment } from '@environments/environment';
 import { NgbModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
-import { AdsenseModule } from 'ng2-adsense';
+// import { AdsenseModule } from 'ng2-adsense';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,7 @@ import { AdsenseModule } from 'ng2-adsense';
     NavComponent,
     AmazonAdsComponent,
     MdescapePipe,
-    AdsComponent,
+    // AdsComponent,
     AdsModalComponent,
     YearPipe,
     LazyImgComponent,
@@ -40,7 +40,7 @@ import { AdsenseModule } from 'ng2-adsense';
   imports: [
     CommonModule,
     NgbModule,
-    AdsenseModule.forRoot({ adClient: environment.googleAdClient }),
+    // AdsenseModule.forRoot({ adClient: environment.googleAdClient }),
     RouterModule,
     HttpClientModule,
     ReactiveFormsModule,
@@ -56,7 +56,7 @@ import { AdsenseModule } from 'ng2-adsense';
     NgbModule,
     MessageComponent,
     LoadingComponent,
-    AdsenseModule,
+    // AdsenseModule,
     NavComponent,
     HttpClientModule,
     AmazonAdsComponent,
